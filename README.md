@@ -6,7 +6,7 @@
 将上面的 PHP 代码保存为一个 .php 文件，例如 pv_counter.php。
 将 pv_counter.php 文件放在你的网站服务器上。
 在需要统计浏览量的页面中，使用 PHP include 或 require 函数引入 pv_counter.php 文件。例如，在页面头部或页脚添加以下代码：
-`<?php include 'pv_counter.php'; ?>`
+`<?php include 'pv_counter.php'; ?>` 图片统计的方法是`<img src=images.php?source=images.jpg />`
 
 # 设置时区
 在使用此代码之前，需要设置时区。在代码的第一行，使用 date_default_timezone_set 函数设置时区。例如，如果你的网站所在地是中国上海，可以使用以下代码设置时区：
